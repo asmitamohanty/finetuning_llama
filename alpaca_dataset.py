@@ -137,11 +137,11 @@ class AlpacaDataModule:
 
 if __name__ == "__main__":
     # Example usage: adjust paths as needed
-    module = AlpacaDataModule("/home1/sbalmeid/.llama/checkpoints/Llama3.2-1B/tokenizer.model", "alpaca_data.json", sample_size=200)
+    module = AlpacaDataModule("/home1/asmitamo/.llama/checkpoints/Llama3.2-1B/tokenizer.model", "alpaca_data.json", sample_size=200)
     # Access the supervised training dataset
     print("First train_dataset element:", module.train_dataset[0])
     list1=module.train_dataset[0]["input_ids"].tolist()
-    tokenizer = Tokenizer("/home1/sbalmeid/.llama/checkpoints/Llama3.2-1B/tokenizer.model")
+    tokenizer = Tokenizer("/home1/asmitamo/.llama/checkpoints/Llama3.2-1B/tokenizer.model")
     tokenizer.decode(list1)
     print("Decoded input_ids:", list1, tokenizer.decode(list1))
 
