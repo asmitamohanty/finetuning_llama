@@ -54,7 +54,7 @@ python finetuning.py --tokenizer_model_path <path-to-your-local-folder>/.llama/c
 Replace the default `consolidated.00.pth` with your saved `finetuned_llama3.2-1B.pth` after running finetuning to compare the finetuned vs non-finetuned outputs. Recommended to enable `kv_caching` boolean during inferencing. 
 
 ### Results
-Refer `results` folder for the output data for both inferencing & finetuning outputs. 
+Refer `outputs` folder for the output data for both inferencing & finetuning outputs. 
 Refer [Metrics Profiling](https://api.wandb.ai/links/asmitamohanty13-usc/g7qh758c) for finetuning results.
 
 1. For Inferencing:
