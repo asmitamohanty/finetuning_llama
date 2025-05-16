@@ -1,4 +1,4 @@
-## Efficient Instruction-Based Finetuning of Llama 3.2-1B
+## System-Level Efficient Processing of Instruction-based Llama 3.2-1B
 ### Project Goal
 This project builds an end-to-end model to study both efficient inferencing & finetuning techniques on Meta's Llama 3.2-1B instruct model (more emphasis on finetuning) & evaluate/profile its memory, latency & computational overhead performances on a task-specific dataset. This project does NOT aim to improve the model-level performance, rather it focuses on improving the system-level performance.
 
