@@ -31,7 +31,7 @@ Reorganize and simplify the code structure for the generation function. The Gene
 - `project/model/grad_ckpt.py`: gradient checkpointing implementation
 - `project/utils.py`: wandb support for memory, computation & loss profiling
 - `alpaca_dataset.py`: customized alpaca dataset for training, forked from the [official Alpaca repository](https://github.com/tatsu-lab/stanford_alpaca)
-- `benchmark_inference.py`: to compare the inference performance based on system-level
+- `benchmark_inference.py`: to compare the inference performance of the original Meta's Llama3 model (based on system-level) 
 
 ### Quick Start
 1. Install required packages:
