@@ -54,10 +54,10 @@ python finetuning.py --tokenizer_model_path <path-to-your-local-folder>/.llama/c
 Replace the default `consolidated.00.pth` with your saved `finetuned_llama3.2-1B.pth` after running finetuning to compare the finetuned vs non-finetuned outputs. Recommended to enable `kv_caching` boolean during inferencing. 
 
 ### Results
-Refer `outputs` folder for the output data for both inferencing & finetuning outputs. 
+Refer `outputs` folder for the output data for both inferencing & finetuning outputs under different combinationations of the strategies.
 Refer [Metrics Profiling](https://api.wandb.ai/links/asmitamohanty13-usc/g7qh758c) for finetuning results.
 
-### Analysis
+### Analysis (Only the best performances illustrated below)
 
 1. For Inferencing:
 - To evaluate the KV Caching optimization performance. Evaluated on Meta's Llama3 original model `Llama3.2-1B/consolidated.00.pth` without any finetuning or task-specific training.
